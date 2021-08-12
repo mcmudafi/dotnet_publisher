@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <StartupObject>DotNetPublisher.Program</StartupObject>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Authors>mcmudafi</Authors>
+    <Description>A simple program to let you easily create a publish package of .NET Core projects.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>© 2021 mcmudafi</Copyright>
+    <PackageProjectUrl>https://github.com/mcmudafi/dotnet_publisher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mcmudafi/dotnet_publisher</RepositoryUrl>
+    <RepositoryType />
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
